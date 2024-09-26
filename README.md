@@ -1,1 +1,1 @@
-# granite-snack-template
+# Granite Snack Cookbook
