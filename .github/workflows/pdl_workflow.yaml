@@ -1,33 +1,21 @@
-name: CI for Vanilla Notebooks
+name: CI for PDL Notebooks
 
 on:
   push:
     branches:
       - main
-      - pm-143
     paths:
-      - 'recipes/Function-Calling/Function_Calling.ipynb'
-      - 'recipes/RAG/RAG_with_Langchain.ipynb'
-      - 'recipes/Entity-Extraction/entity_extraction.ipynb'
-      - 'recipes/Granite_Guardian/HAP.ipynb'
-      - '.github/notebook_lists/vanilla_notebooks.txt'
-      - 'recipes/AI-Agents/Agentic_RAG.ipynb'
-      - 'recipes/Summarize/Summarize.ipynb'
+      - 'recipes/PDL/Prompt_Declaration_Language_python.ipynb'
+      - '.github/notebook_lists/pdl_notebooks.txt'
   pull_request:
     branches:
       - main
-      - pm-143
     paths:
-      - 'recipes/Function-Calling/Function_Calling.ipynb'
-      - '.github/workflows/vanilla_workflow.yaml'
-      - 'recipes/RAG/RAG_with_Langchain.ipynb'
-      - 'recipes/Entity-Extraction/entity_extraction.ipynb'
-      - 'recipes/Granite_Guardian/HAP.ipynb'
-      - 'recipes/AI-Agents/Agentic_RAG.ipynb'
-      - 'recipes/Summarize/Summarize.ipynb'
+      - 'recipes/PDL/Prompt_Declaration_Language_python.ipynb'
+      - '.github/workflows/pdl_workflow.yaml'
 
 jobs:
-  test-vanilla-notebooks:
+  test-pdl-notebooks:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,14 +25,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip    
           pip install nbconvert nbclient ipykernel
 
-      - name: Run Vanilla Notebooks
+      - name: Run PDL Notebooks
         env:
           GRANITE_TESTING: ${{ vars.GRANITE_TESTING }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
@@ -53,7 +41,7 @@ jobs:
           WATSONX_URL: ${{ secrets.WATSONX_URL }}
         run: |
           set -e
-          notebooks=$(cat .github/notebook_lists/vanilla_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
+          notebooks=$(cat .github/notebook_lists/pdl_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
