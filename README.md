@@ -45,6 +45,11 @@ The "Recipes" in the Granite Snack Cookbook showcase the essential capabilities 
   <img src="https://github.com/ibm-granite-community/granite-snack-cookbook/actions/workflows/vanilla_workflow.yaml/badge.svg" alt="CI for Vanilla Notebooks">
 </a>
 
+<a href="https://github.com/ibm-granite-community/granite-snack-cookbook/actions/workflows/pdl_workflow.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-snack-cookbook/actions/workflows/pdl_workflow.yaml/badge.svg" alt="CI for PDL Notebooks">
+</a>
+
+
 ## Contributing
 
 For information about contributing to this repo, code of conduct guidelines, etc., see the community [CONTRIBUTING][CG] and [Code of Conduct][CoC] guides.  All commits require DCO-signoff (discussed [here][CG-legal]) _and_ GPG or SSH signing (discussed [here][CG-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement).
