@@ -6,25 +6,31 @@ on:
       - main
       - pm-143
     paths:
-      - 'recipes/Function-Calling/Function_Calling.ipynb'
-      - 'recipes/RAG/RAG_with_Langchain.ipynb'
-      - 'recipes/Entity-Extraction/entity_extraction.ipynb'
-      - 'recipes/Granite_Guardian/HAP.ipynb'
-      - '.github/notebook_lists/vanilla_notebooks.txt'
-      - 'recipes/AI-Agents/Agentic_RAG.ipynb'
-      - 'recipes/Summarize/Summarize.ipynb'
+      - "recipes/RAG/RAG_with_Langchain.ipynb"
+      - "recipes/Entity-Extraction/entity_extraction.ipynb"
+      - "recipes/Granite_Guardian/HAP.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Quick_Start.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Detailed_Guide.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Usage_Governance_Workflow.ipynb"
+      - ".github/notebook_lists/vanilla_notebooks.txt"
+      - "recipes/AI-Agents/Agentic_RAG.ipynb"
+      - "recipes/Summarize/Summarize.ipynb"
+      - "recipes/Function-Calling/Function_Calling.ipynb"
   pull_request:
     branches:
       - main
       - pm-143
     paths:
-      - 'recipes/Function-Calling/Function_Calling.ipynb'
-      - '.github/workflows/vanilla_workflow.yaml'
-      - 'recipes/RAG/RAG_with_Langchain.ipynb'
-      - 'recipes/Entity-Extraction/entity_extraction.ipynb'
-      - 'recipes/Granite_Guardian/HAP.ipynb'
-      - 'recipes/AI-Agents/Agentic_RAG.ipynb'
-      - 'recipes/Summarize/Summarize.ipynb'
+      - ".github/workflows/vanilla_workflow.yaml"
+      - "recipes/RAG/RAG_with_Langchain.ipynb"
+      - "recipes/Entity-Extraction/entity_extraction.ipynb"
+      - "recipes/Granite_Guardian/HAP.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Quick_Start.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Detailed_Guide.ipynb"
+      - "recipes/Granite_Guardian/Granite_Guardian_Usage_Governance_Workflow.ipynb"
+      - "recipes/AI-Agents/Agentic_RAG.ipynb"
+      - "recipes/Summarize/Summarize.ipynb"
+      - "recipes/Function-Calling/Function_Calling.ipynb"
 
 jobs:
   test-vanilla-notebooks:
