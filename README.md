@@ -18,11 +18,19 @@ The "Recipes" in the Granite Snack Cookbook showcase the essential capabilities 
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Function-Calling/Function_Calling.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [Contract Analysis](recipes/Contract-Analysis/Granite_Recipes_Contracts_Analysis.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Contract-Analysis/Granite_Recipes_Contracts_Analysis.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
 
 ### Compound Systems
 
 1. [RAG](/recipes/RAG/RAG_with_Langchain.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/RAG_with_Langchain.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+1. [Understanding ReAct](recipes/AI-Agents/Understanding_ReAct.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Understanding_ReAct.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 1. [Agentic RAG](recipes/AI-Agents/Agentic_RAG.ipynb)
@@ -31,6 +39,10 @@ The "Recipes" in the Granite Snack Cookbook showcase the essential capabilities 
    </a>
 1. [Travel planner Agent](recipes/AI-Agents/travel_planner_agent.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/travel_planner_agent.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+1. [Github Agent](recipes/AI-Agents/github_agent.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/github_agent.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 1. Prompt Declaration Language (PDL)
@@ -43,12 +55,22 @@ The "Recipes" in the Granite Snack Cookbook showcase the essential capabilities 
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Docling_RAG.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [Multimodal RAG](recipes/RAG/Granite_Multimodal_RAG.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Multimodal_RAG.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
 
 ### Intrinsic Functions
 
-1. Retrieval Augmented Generation (RAG) with Granite RAG 3.0 8b
-   1. [Notebook that uses Ollama](recipes/Intrinsics/Granite_RAG_LoRA.ipynb) (Not available in Colab, because it requires a local Ollama server.)
-   1. [Notebook that uses Hugging Face Transformers and PEFT Libraries](recipes/Intrinsics/Granite_RAG_LoRA_HF.ipynb) (Not available in Colab, because it requires a >16GB memory)
+1. [Chain of thought (cot) reasoning](recipes/Intrinsics/Granite_Reasoning.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Intrinsics/Granite_Reasoning.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+1. [Retrieval Augmented Generation (RAG) intrinsics in Granite](recipes/Intrinsics/Granite_RAG_Intrinsics.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Intrinsics/Granite_RAG_Intrinsics.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+1. [Retrieval Augmented Generation (RAG) with Granite RAG 3.0 8b](recipes/Intrinsics/Granite_RAG_LoRA_HF.ipynb) (Not available in Colab, because it requires a >16GB memory)
 
 ### Tuning
 
@@ -58,6 +80,21 @@ The "Recipes" in the Granite Snack Cookbook showcase the essential capabilities 
    </a>
 1. [Loading a LoRA from Huggingface](recipes/Load_LoRA_from_Huggingface/Load_LoRA_From_Huggingface.ipynb)
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Load_LoRA_from_Huggingface/Load_LoRA_From_Huggingface.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+
+### Model Evaluation
+
+1. [Evaluating Granite with Unitxt](recipes/Evaluation/Unitxt_Quick_Start.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Evaluation/Unitxt_Quick_Start.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+2. [Evaluating Few-Shot Strategies](recipes/Evaluation/Unitxt_Demo_Strategies.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Evaluation/Unitxt_Demo_Strategies.ipynb">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+   </a>
+3. [Using Granite as Judge](recipes/Evaluation/Unitxt_Granite_as_Judge.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/Evaluation/Unitxt_Granite_as_Judge.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 
